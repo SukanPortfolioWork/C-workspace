@@ -19,6 +19,18 @@ int main(void)
 
     }while(step<=0);
 
+    do{
+        printf("Stop (m):");
+        scanf("lf",&stop);
+
+        if(stop<=0) printf("Must be >0! \n");
+
+    }while(stop<=0);
+    
+    for( double conv = initial; conv <= stop; conv += step){
+   
+    }
+
     return 0;
 
 
