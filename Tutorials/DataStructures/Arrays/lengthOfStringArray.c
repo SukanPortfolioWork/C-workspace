@@ -8,10 +8,6 @@ int main(void){
 
     int length = strlen(myString);
     int num_i_s = 0;
-
-    //printf("Enter: ");
-   // scanf("%s",myString);
-
     
     for(int i= 0; i < length; i++ ){
         
